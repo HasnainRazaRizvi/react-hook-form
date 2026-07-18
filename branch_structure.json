@@ -1,0 +1,33 @@
+{
+  "default_branch": "master",
+  "branches": [
+    "chore/biomejs",
+    "fix-useWatch-activity",
+    "fix/usewatch-activity-reconnect",
+    "improve-perf-dirty-tracking",
+    "master",
+    "origin",
+    "react-complier",
+    "validationScope"
+  ],
+  "parent": {
+    "chore/biomejs": "master",
+    "fix-useWatch-activity": "master",
+    "fix/usewatch-activity-reconnect": "master",
+    "improve-perf-dirty-tracking": "master",
+    "master": null,
+    "origin": "master",
+    "react-complier": "master",
+    "validationScope": "master"
+  },
+  "order": [
+    "master",
+    "chore/biomejs",
+    "fix-useWatch-activity",
+    "fix/usewatch-activity-reconnect",
+    "improve-perf-dirty-tracking",
+    "origin",
+    "react-complier",
+    "validationScope"
+  ]
+}
