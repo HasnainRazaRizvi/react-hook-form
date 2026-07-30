@@ -7,6 +7,9 @@ import pluginCypress from 'eslint-plugin-cypress/flat';
 import reactHookPlugin from "eslint-plugin-react-hooks";
 import simpleImportSort from "eslint-plugin-simple-import-sort";
 import { fixupPluginRules } from '@eslint/compat';
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
 
 export default tseslint.config(
   {
